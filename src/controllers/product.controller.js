@@ -14,7 +14,6 @@ const getProducts = catchAsync(async (req, res) => {
 })
 
 const getProductById = catchAsync(async (req, res) => {
-    console.log({ productId: req.params.productId })
     const productId = parseInt(req.params.productId)
     const product = await ProductService.getProductById(productId)
 
