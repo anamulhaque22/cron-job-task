@@ -4,7 +4,13 @@ Welcome to the Node.js internship task! This task is designed to showcase my ski
 
 ## How to Use the App
 
-1. **Install Dependencies**: Ensure you have Node.js installed on your machine, then install project dependencies using npm or yarn: npm i or yarn
+1. **Install Dependencies**: Ensure you have Node.js installed on your machine, then install project dependencies using npm or yarn:
+
+```bash
+npm i
+or
+yarn
+```
 
 2. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the following variables:
    PORT=8080
@@ -46,6 +52,15 @@ All API endpoints start from `http://localhost:PORT/api/v1`.
 
 -   Endpoint: `/product/:id`
 -   Method: PUT
+-   Request Body:
+    ```json
+    {
+        "name": "Iphone",
+        "price": 222,
+        "description": "lorem",
+        "quantity": 10
+    }
+    ```
 
 5. **Delete Product**
 
@@ -55,6 +70,9 @@ All API endpoints start from `http://localhost:PORT/api/v1`.
 ## Running the App in Development Mode
 
 To run the app in development mode, use the following command:
+
+```bash
 npm run start:dev
 or
 yarn run start:dev
+```
