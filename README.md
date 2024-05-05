@@ -6,19 +6,22 @@ Welcome to the Node.js internship task! This task is designed to showcase my ski
 
 1. **Install Dependencies**: Ensure you have Node.js installed on your machine, then install project dependencies using npm or yarn:
 
-```bash
-npm i
-or
-yarn
-```
+    ```bash
+    npm i
+    or
+    yarn
+    ```
 
 2. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the following variables:
-   PORT=8080
-   DB_HOST=localhost
-   DB_PORT=3306
-   DB_USER=root
-   DB_PASS=password
-   DB_NAME=cron_job_task
+
+    ```bash
+    PORT=8080
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_USER=root
+    DB_PASS=password
+    DB_NAME=cron_job_task
+    ```
 
 ## API Endpoint List
 
