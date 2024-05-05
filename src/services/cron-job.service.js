@@ -5,7 +5,7 @@ const dataSource = require('../db/dataSource')
 
 const startCronJob = () => {
     // Cron job to run every hour
-    cron.schedule('*/10 * * * * *', () => {
+    cron.schedule("'0 * * * *'", () => {
         console.log('Running cron job...')
         cornTask()
     })
